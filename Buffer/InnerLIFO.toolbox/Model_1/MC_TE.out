@@ -2,7 +2,7 @@
 TLC2 Version 2.11 of 05 January 2018
 @!@!@ENDMSG 2262 @!@!@
 @!@!@STARTMSG 2187:0 @!@!@
-Running breadth-first search Model-Checking with 2 workers on 4 cores with 599MB heap and 1345MB offheap memory (Windows 10 10.0 amd64, Oracle Corporation 1.8.0_161 x86_64).
+Running breadth-first search Model-Checking with 2 workers on 4 cores with 599MB heap and 1345MB offheap memory (Windows 10 10.0 amd64, Oracle Corporation 1.8.0_162 x86_64).
 @!@!@ENDMSG 2187 @!@!@
 @!@!@STARTMSG 2220:0 @!@!@
 Starting SANY...
@@ -23,7 +23,7 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2018-03-14 11:59:38)
+Starting... (2018-03-15 09:00:24)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
@@ -32,7 +32,7 @@ Computing initial states...
 Finished computing initial states: 16 distinct states generated.
 @!@!@ENDMSG 2190 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(20) at 2018-03-14 11:59:49: 60720 states generated (60.720 s/min), 35157 distinct states found (35.157 ds/min), 10825 states left on queue.
+Progress(22) at 2018-03-15 09:00:30: 102450 states generated (102.450 s/min), 54846 distinct states found (54.846 ds/min), 9901 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2193:0 @!@!@
 Model checking completed. No error has been found.
@@ -42,7 +42,7 @@ Model checking completed. No error has been found.
   based on the actual fingerprints:  val = 1.9E-12
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2018-03-14 11:59:58
+The coverage statistics at 2018-03-15 09:00:36
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 14, col 15 to line 14, col 58 of module Channel: 96128
@@ -78,7 +78,7 @@ The coverage statistics at 2018-03-14 11:59:58
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(25) at 2018-03-14 11:59:59: 167760 states generated (520.912 s/min), 77760 distinct states found (241.453 ds/min), 0 states left on queue.
+Progress(25) at 2018-03-15 09:00:36: 167760 states generated (954.809 s/min), 77760 distinct states found (442.572 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 167760 states generated, 77760 distinct states found, 0 states left on queue.
@@ -90,5 +90,5 @@ The depth of the complete state graph search is 25.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 3 and the 95th percentile is 2).
 @!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 28758ms at (2018-03-14 12:00:00)
+Finished in 13887ms at (2018-03-15 09:00:36)
 @!@!@ENDMSG 2186 @!@!@

@@ -1,5 +1,5 @@
 ------------------------------ MODULE InnerLIFO ------------------------------
-EXTENDS Naturals, Sequences, BufferInterface
+EXTENDS Naturals, Sequences
 CONSTANT Message, BufSize
 VARIABLES in, out, q
 InChan  == INSTANCE Channel WITH Data <- Message, chan <- in
@@ -51,7 +51,7 @@ BufRcv == /\ InChan!Receive                \* Receive message from channel `in'.
           /\ q' = <<in.val>> \o q          \* insert val at the head of q.
           /\ UNCHANGED out
 
-BufSend == /\ RecursiveLen[q] > 0          \* Enabled only if q is nonempty.
+BufSend == /\ RecursiveLen[q] > 0                    \* Enabled only if q is nonempty.
            /\ OutChan!Send(Head(q))        \* Send Head(q) on channel `out'
            /\ q' = Tail(q)                 \* and remove it from q.
            /\ UNCHANGED in
@@ -65,11 +65,9 @@ Next == \/ \E msg \in Message : SSend(msg)
         \/ RRcv 
 
 Spec == Init /\ [][Next]_<<in, out, q>>
-
-AbstractedSpec == \E x \in Message : Init /\ in.val = x /\ [][Next]_<<in, out, q>> => <> out.val = x
 -----------------------------------------------------------------------------
 THEOREM Spec => []TypeInvariant
 =============================================================================
 \* Modification History
-\* Last modified Thu Mar 15 11:45:15 CET 2018 by jacob
+\* Last modified Wed Mar 14 11:56:59 CET 2018 by jacob
 \* Created Mon Feb 12 14:42:22 CET 2018 by jacob

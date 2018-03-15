@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>InnerLIFO</name>
+	<name>Functions</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -21,19 +21,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>BufferInterface.tla</name>
+			<name>Functions.tla</name>
 			<type>1</type>
-			<location>D:/Modelling and Verification/MV/Buffer/BufferInterface.tla</location>
-		</link>
-		<link>
-			<name>Channel.tla</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Channel.tla</locationURI>
-		</link>
-		<link>
-			<name>InnerLIFO.tla</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/InnerLIFO.tla</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/Functions.tla</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
