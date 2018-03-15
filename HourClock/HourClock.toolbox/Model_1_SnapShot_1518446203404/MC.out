@@ -1,0 +1,65 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.11 of 05 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 2 workers on 4 cores with 599MB heap and 1345MB offheap memory (Windows 10 10.0 amd64, Oracle Corporation 1.8.0_161 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file MC.tla
+Parsing file HourClock.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\TLC.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Integers.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Naturals.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module HourClock
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-02-12 15:36:41)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 1000:1 @!@!@
+@!@!@STARTMSG 2280:0 @!@!@
+In evaluation, the identifier tmp is either undefined or not an operator.
+line 6, col 13 to line 6, col 15 of module HourClock
+@!@!@ENDMSG 2280 @!@!@
+@!@!@ENDMSG 1000 @!@!@
+@!@!@STARTMSG 2103:1 @!@!@
+The error occurred when TLC was evaluating the nested
+expressions at the following positions:
+0. Line 6, column 1 to line 6, column 5 in MC
+1. Line 5, column 10 to line 6, column 22 in HourClock
+2. Line 5, column 13 to line 5, column 28 in HourClock
+3. Line 6, column 13 to line 6, column 22 in HourClock
+4. Line 6, column 13 to line 6, column 15 in HourClock
+
+
+@!@!@ENDMSG 2103 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-02-12 15:36:42
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 9, col 13 to line 9, col 48 of module HourClock: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(0) at 2018-02-12 15:36:42: 0 states generated (0 s/min), 0 distinct states found (0 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+0 states generated, 0 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 949ms at (2018-02-12 15:36:42)
+@!@!@ENDMSG 2186 @!@!@

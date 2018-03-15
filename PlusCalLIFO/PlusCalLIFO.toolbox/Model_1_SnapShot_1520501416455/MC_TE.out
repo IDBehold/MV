@@ -1,0 +1,413 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.11 of 05 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 2 workers on 4 cores with 599MB heap and 1345MB offheap memory (Windows 10 10.0 amd64, Oracle Corporation 1.8.0_161 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file MC.tla
+Parsing file PlusCalLIFO.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\TLC.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Naturals.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module PlusCalLIFO
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-03-08 10:30:07)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 576 distinct states generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(18) at 2018-03-08 10:30:10: 410176 states generated (410.176 s/min), 144786 distinct states found (144.786 ds/min), 8929 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.1E-8
+  based on the actual fingerprints:  val = 6.9E-9
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-03-08 10:30:15
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 11 to line 129, col 46 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 24 to line 130, col 29 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 32 to line 130, col 38 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 41 to line 130, col 41 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 44 to line 130, col 50 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 53 to line 130, col 59 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 62 to line 130, col 67 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 70 to line 130, col 73 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 131, col 24 to line 131, col 29 of module PlusCalLIFO: 132288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 135, col 11 to line 135, col 46 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 24 to line 136, col 29 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 32 to line 136, col 38 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 41 to line 136, col 41 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 44 to line 136, col 50 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 53 to line 136, col 59 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 62 to line 136, col 67 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 70 to line 136, col 73 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 137, col 24 to line 137, col 29 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 140, col 11 to line 140, col 31 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 141, col 11 to line 141, col 58 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 11 to line 160, col 46 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 24 to line 161, col 30 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 33 to line 161, col 33 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 36 to line 161, col 42 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 45 to line 161, col 50 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 53 to line 161, col 56 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 59 to line 161, col 64 of module PlusCalLIFO: 57120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 166, col 11 to line 166, col 47 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 24 to line 167, col 29 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 32 to line 167, col 38 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 41 to line 167, col 41 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 44 to line 167, col 50 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 53 to line 167, col 59 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 62 to line 167, col 67 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 167, col 70 to line 167, col 73 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 24 to line 168, col 29 of module PlusCalLIFO: 138576
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 172, col 11 to line 172, col 47 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 24 to line 173, col 29 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 32 to line 173, col 38 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 41 to line 173, col 41 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 44 to line 173, col 50 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 53 to line 173, col 59 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 62 to line 173, col 67 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 173, col 70 to line 173, col 73 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 174, col 24 to line 174, col 29 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 177, col 11 to line 177, col 31 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 178, col 11 to line 178, col 58 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 179, col 11 to line 179, col 35 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 198, col 11 to line 198, col 47 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 199, col 24 to line 199, col 30 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 199, col 33 to line 199, col 39 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 199, col 42 to line 199, col 47 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 199, col 50 to line 199, col 53 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 199, col 56 to line 199, col 61 of module PlusCalLIFO: 44544
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 11 to line 204, col 48 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 24 to line 205, col 29 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 32 to line 205, col 38 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 41 to line 205, col 41 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 44 to line 205, col 50 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 53 to line 205, col 59 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 62 to line 205, col 67 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 70 to line 205, col 73 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 206, col 24 to line 206, col 29 of module PlusCalLIFO: 97248
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 210, col 11 to line 210, col 48 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 24 to line 211, col 29 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 32 to line 211, col 38 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 41 to line 211, col 41 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 44 to line 211, col 50 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 53 to line 211, col 59 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 62 to line 211, col 67 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 70 to line 211, col 73 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 212, col 24 to line 212, col 29 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 215, col 11 to line 215, col 31 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 216, col 11 to line 216, col 61 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 217, col 11 to line 217, col 25 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 218, col 11 to line 218, col 22 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 237, col 11 to line 237, col 48 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 238, col 24 to line 238, col 29 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 238, col 32 to line 238, col 38 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 238, col 41 to line 238, col 47 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 238, col 50 to line 238, col 55 of module PlusCalLIFO: 39648
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 241, col 11 to line 241, col 50 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 242, col 11 to line 242, col 48 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 24 to line 243, col 29 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 32 to line 243, col 32 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 35 to line 243, col 41 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 44 to line 243, col 50 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 53 to line 243, col 58 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 61 to line 243, col 64 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 67 to line 243, col 72 of module PlusCalLIFO: 87552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 248, col 11 to line 248, col 45 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 24 to line 249, col 29 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 32 to line 249, col 38 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 41 to line 249, col 41 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 44 to line 249, col 50 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 53 to line 249, col 59 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 62 to line 249, col 67 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 249, col 70 to line 249, col 73 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 250, col 24 to line 250, col 29 of module PlusCalLIFO: 134448
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 254, col 11 to line 254, col 45 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 24 to line 255, col 29 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 32 to line 255, col 38 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 41 to line 255, col 41 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 44 to line 255, col 50 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 53 to line 255, col 59 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 62 to line 255, col 67 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 70 to line 255, col 73 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 256, col 24 to line 256, col 29 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 259, col 11 to line 259, col 31 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 11 to line 260, col 61 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 279, col 11 to line 279, col 45 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 24 to line 280, col 29 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 32 to line 280, col 32 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 35 to line 280, col 41 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 44 to line 280, col 50 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 53 to line 280, col 58 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 280, col 61 to line 280, col 64 of module PlusCalLIFO: 52800
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(49) at 2018-03-08 10:30:15: 978912 states generated (7.138.395 s/min), 321696 distinct states found (2.345.862 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+978912 states generated, 321696 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 49.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 4 and the 95th percentile is 3).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 8657ms at (2018-03-08 10:30:15)
+@!@!@ENDMSG 2186 @!@!@

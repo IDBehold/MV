@@ -1,0 +1,421 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.11 of 05 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 2 workers on 4 cores with 599MB heap and 1345MB offheap memory (Windows 10 10.0 amd64, Oracle Corporation 1.8.0_161 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file MC.tla
+Parsing file InnerLIFO.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\TLC.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Naturals.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Sequences.tla
+Parsing file Channel.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module Channel
+Semantic processing of module InnerLIFO
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-03-13 12:32:55)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2102:1 @!@!@
+TLC attempted to evaluate an unbounded CHOOSE.
+Make sure that the expression is of form CHOOSE x \in S: P(x).
+line 25, col 11 to line 26, col 90 of module InnerLIFO
+While working on the initial state:
+/\ out = [val |-> 1, rdy |-> 0, ack |-> 0]
+/\ q = <<>>
+/\ in = [val |-> 1, rdy |-> 0, ack |-> 0]
+
+@!@!@ENDMSG 2102 @!@!@
+@!@!@STARTMSG 2103:1 @!@!@
+The error occurred when TLC was evaluating the nested
+expressions at the following positions:
+0. Line 16, column 1 to line 16, column 4 in MC
+1. Line 35, column 9 to line 37, column 20 in InnerLIFO
+2. Line 35, column 12 to line 35, column 22 in InnerLIFO
+3. Line 5, column 1 to line 5, column 60 in InnerLIFO
+4. Line 10, column 9 to line 11, column 30 in Channel
+5. Line 10, column 12 to line 10, column 24 in Channel
+6. Line 6, column 18 to line 6, column 58 in Channel
+7. Line 11, column 12 to line 11, column 30 in Channel
+8. Line 36, column 12 to line 36, column 23 in InnerLIFO
+9. Line 6, column 1 to line 6, column 61 in InnerLIFO
+10. Line 10, column 9 to line 11, column 30 in Channel
+11. Line 10, column 12 to line 10, column 24 in Channel
+12. Line 6, column 18 to line 6, column 58 in Channel
+13. Line 11, column 12 to line 11, column 30 in Channel
+14. Line 37, column 12 to line 37, column 20 in InnerLIFO
+15. Line 24, column 1 to line 24, column 13 in MC
+16. Line 39, column 20 to line 43, column 42 in InnerLIFO
+17. Line 43, column 23 to line 43, column 42 in InnerLIFO
+18. Line 43, column 23 to line 43, column 31 in InnerLIFO
+19. Line 43, column 23 to line 43, column 28 in InnerLIFO
+20. Line 25, column 11 to line 26, column 90 in InnerLIFO
+21. Line 11, column 12 to line 11, column 30 in Channel
+22. Line 11, column 12 to line 11, column 19 in Channel
+23. Line 11, column 12 to line 11, column 15 in Channel
+24. Line 6, column 59 to line 6, column 61 in InnerLIFO
+25. Line 11, column 23 to line 11, column 30 in Channel
+26. Line 11, column 23 to line 11, column 26 in Channel
+27. Line 6, column 59 to line 6, column 61 in InnerLIFO
+28. Line 37, column 12 to line 37, column 20 in InnerLIFO
+29. Line 37, column 16 to line 37, column 20 in InnerLIFO
+30. Line 11, column 12 to line 11, column 30 in Channel
+31. Line 11, column 12 to line 11, column 19 in Channel
+32. Line 11, column 12 to line 11, column 15 in Channel
+33. Line 6, column 59 to line 6, column 61 in InnerLIFO
+34. Line 11, column 23 to line 11, column 30 in Channel
+35. Line 11, column 23 to line 11, column 26 in Channel
+36. Line 6, column 59 to line 6, column 61 in InnerLIFO
+37. Line 11, column 12 to line 11, column 30 in Channel
+38. Line 11, column 12 to line 11, column 19 in Channel
+39. Line 11, column 12 to line 11, column 15 in Channel
+40. Line 6, column 59 to line 6, column 61 in InnerLIFO
+41. Line 11, column 23 to line 11, column 30 in Channel
+42. Line 11, column 23 to line 11, column 26 in Channel
+43. Line 6, column 59 to line 6, column 61 in InnerLIFO
+44. Line 11, column 12 to line 11, column 30 in Channel
+45. Line 11, column 12 to line 11, column 19 in Channel
+46. Line 11, column 12 to line 11, column 15 in Channel
+47. Line 6, column 59 to line 6, column 61 in InnerLIFO
+48. Line 11, column 23 to line 11, column 30 in Channel
+49. Line 11, column 23 to line 11, column 26 in Channel
+50. Line 6, column 59 to line 6, column 61 in InnerLIFO
+51. Line 37, column 12 to line 37, column 20 in InnerLIFO
+52. Line 37, column 16 to line 37, column 20 in InnerLIFO
+53. Line 11, column 12 to line 11, column 30 in Channel
+54. Line 11, column 12 to line 11, column 19 in Channel
+55. Line 11, column 12 to line 11, column 15 in Channel
+56. Line 5, column 59 to line 5, column 60 in InnerLIFO
+57. Line 11, column 23 to line 11, column 30 in Channel
+58. Line 11, column 23 to line 11, column 26 in Channel
+59. Line 5, column 59 to line 5, column 60 in InnerLIFO
+60. Line 11, column 12 to line 11, column 30 in Channel
+61. Line 11, column 12 to line 11, column 19 in Channel
+62. Line 11, column 12 to line 11, column 15 in Channel
+63. Line 5, column 59 to line 5, column 60 in InnerLIFO
+64. Line 11, column 23 to line 11, column 30 in Channel
+65. Line 11, column 23 to line 11, column 26 in Channel
+66. Line 5, column 59 to line 5, column 60 in InnerLIFO
+67. Line 11, column 12 to line 11, column 30 in Channel
+68. Line 11, column 12 to line 11, column 19 in Channel
+69. Line 11, column 12 to line 11, column 15 in Channel
+70. Line 5, column 59 to line 5, column 60 in InnerLIFO
+71. Line 11, column 23 to line 11, column 30 in Channel
+72. Line 11, column 23 to line 11, column 26 in Channel
+73. Line 5, column 59 to line 5, column 60 in InnerLIFO
+74. Line 36, column 12 to line 36, column 23 in InnerLIFO
+75. Line 6, column 1 to line 6, column 61 in InnerLIFO
+76. Line 10, column 9 to line 11, column 30 in Channel
+77. Line 10, column 12 to line 10, column 24 in Channel
+78. Line 6, column 18 to line 6, column 58 in Channel
+79. Line 6, column 27 to line 6, column 58 in Channel
+80. Line 6, column 32 to line 6, column 35 in Channel
+81. Line 6, column 42 to line 6, column 48 in InnerLIFO
+82. Line 6, column 42 to line 6, column 46 in Channel
+83. Line 6, column 43 to line 6, column 43 in Channel
+84. Line 6, column 45 to line 6, column 45 in Channel
+85. Line 6, column 53 to line 6, column 57 in Channel
+86. Line 6, column 54 to line 6, column 54 in Channel
+87. Line 6, column 56 to line 6, column 56 in Channel
+88. Line 11, column 12 to line 11, column 30 in Channel
+89. Line 11, column 12 to line 11, column 19 in Channel
+90. Line 11, column 12 to line 11, column 15 in Channel
+91. Line 6, column 59 to line 6, column 61 in InnerLIFO
+92. Line 11, column 23 to line 11, column 30 in Channel
+93. Line 11, column 23 to line 11, column 26 in Channel
+94. Line 6, column 59 to line 6, column 61 in InnerLIFO
+95. Line 37, column 12 to line 37, column 20 in InnerLIFO
+96. Line 37, column 16 to line 37, column 20 in InnerLIFO
+97. Line 11, column 12 to line 11, column 30 in Channel
+98. Line 11, column 12 to line 11, column 19 in Channel
+99. Line 11, column 12 to line 11, column 15 in Channel
+100. Line 6, column 59 to line 6, column 61 in InnerLIFO
+101. Line 11, column 23 to line 11, column 30 in Channel
+102. Line 11, column 23 to line 11, column 26 in Channel
+103. Line 6, column 59 to line 6, column 61 in InnerLIFO
+104. Line 11, column 12 to line 11, column 30 in Channel
+105. Line 11, column 12 to line 11, column 19 in Channel
+106. Line 11, column 12 to line 11, column 15 in Channel
+107. Line 6, column 59 to line 6, column 61 in InnerLIFO
+108. Line 11, column 23 to line 11, column 30 in Channel
+109. Line 11, column 23 to line 11, column 26 in Channel
+110. Line 6, column 59 to line 6, column 61 in InnerLIFO
+111. Line 11, column 12 to line 11, column 30 in Channel
+112. Line 11, column 12 to line 11, column 19 in Channel
+113. Line 11, column 12 to line 11, column 15 in Channel
+114. Line 6, column 59 to line 6, column 61 in InnerLIFO
+115. Line 11, column 23 to line 11, column 30 in Channel
+116. Line 11, column 23 to line 11, column 26 in Channel
+117. Line 6, column 59 to line 6, column 61 in InnerLIFO
+118. Line 37, column 12 to line 37, column 20 in InnerLIFO
+119. Line 37, column 16 to line 37, column 20 in InnerLIFO
+120. Line 11, column 12 to line 11, column 30 in Channel
+121. Line 11, column 12 to line 11, column 19 in Channel
+122. Line 11, column 12 to line 11, column 15 in Channel
+123. Line 6, column 59 to line 6, column 61 in InnerLIFO
+124. Line 11, column 23 to line 11, column 30 in Channel
+125. Line 11, column 23 to line 11, column 26 in Channel
+126. Line 6, column 59 to line 6, column 61 in InnerLIFO
+127. Line 37, column 12 to line 37, column 20 in InnerLIFO
+128. Line 37, column 16 to line 37, column 20 in InnerLIFO
+129. Line 11, column 12 to line 11, column 30 in Channel
+130. Line 11, column 12 to line 11, column 19 in Channel
+131. Line 11, column 12 to line 11, column 15 in Channel
+132. Line 6, column 59 to line 6, column 61 in InnerLIFO
+133. Line 11, column 23 to line 11, column 30 in Channel
+134. Line 11, column 23 to line 11, column 26 in Channel
+135. Line 6, column 59 to line 6, column 61 in InnerLIFO
+136. Line 11, column 12 to line 11, column 30 in Channel
+137. Line 11, column 12 to line 11, column 19 in Channel
+138. Line 11, column 12 to line 11, column 15 in Channel
+139. Line 6, column 59 to line 6, column 61 in InnerLIFO
+140. Line 11, column 23 to line 11, column 30 in Channel
+141. Line 11, column 23 to line 11, column 26 in Channel
+142. Line 6, column 59 to line 6, column 61 in InnerLIFO
+143. Line 11, column 12 to line 11, column 30 in Channel
+144. Line 11, column 12 to line 11, column 19 in Channel
+145. Line 11, column 12 to line 11, column 15 in Channel
+146. Line 6, column 59 to line 6, column 61 in InnerLIFO
+147. Line 11, column 23 to line 11, column 30 in Channel
+148. Line 11, column 23 to line 11, column 26 in Channel
+149. Line 6, column 59 to line 6, column 61 in InnerLIFO
+150. Line 37, column 12 to line 37, column 20 in InnerLIFO
+151. Line 37, column 16 to line 37, column 20 in InnerLIFO
+152. Line 11, column 12 to line 11, column 30 in Channel
+153. Line 11, column 12 to line 11, column 19 in Channel
+154. Line 11, column 12 to line 11, column 15 in Channel
+155. Line 5, column 59 to line 5, column 60 in InnerLIFO
+156. Line 11, column 23 to line 11, column 30 in Channel
+157. Line 11, column 23 to line 11, column 26 in Channel
+158. Line 5, column 59 to line 5, column 60 in InnerLIFO
+159. Line 36, column 12 to line 36, column 23 in InnerLIFO
+160. Line 6, column 1 to line 6, column 61 in InnerLIFO
+161. Line 10, column 9 to line 11, column 30 in Channel
+162. Line 10, column 12 to line 10, column 24 in Channel
+163. Line 6, column 18 to line 6, column 58 in Channel
+164. Line 6, column 27 to line 6, column 58 in Channel
+165. Line 6, column 32 to line 6, column 35 in Channel
+166. Line 6, column 42 to line 6, column 48 in InnerLIFO
+167. Line 6, column 42 to line 6, column 46 in Channel
+168. Line 6, column 43 to line 6, column 43 in Channel
+169. Line 6, column 45 to line 6, column 45 in Channel
+170. Line 6, column 53 to line 6, column 57 in Channel
+171. Line 6, column 54 to line 6, column 54 in Channel
+172. Line 6, column 56 to line 6, column 56 in Channel
+173. Line 11, column 12 to line 11, column 30 in Channel
+174. Line 11, column 12 to line 11, column 19 in Channel
+175. Line 11, column 12 to line 11, column 15 in Channel
+176. Line 6, column 59 to line 6, column 61 in InnerLIFO
+177. Line 11, column 23 to line 11, column 30 in Channel
+178. Line 11, column 23 to line 11, column 26 in Channel
+179. Line 6, column 59 to line 6, column 61 in InnerLIFO
+180. Line 37, column 12 to line 37, column 20 in InnerLIFO
+181. Line 37, column 16 to line 37, column 20 in InnerLIFO
+182. Line 11, column 12 to line 11, column 30 in Channel
+183. Line 11, column 12 to line 11, column 19 in Channel
+184. Line 11, column 12 to line 11, column 15 in Channel
+185. Line 6, column 59 to line 6, column 61 in InnerLIFO
+186. Line 11, column 23 to line 11, column 30 in Channel
+187. Line 11, column 23 to line 11, column 26 in Channel
+188. Line 6, column 59 to line 6, column 61 in InnerLIFO
+189. Line 11, column 12 to line 11, column 30 in Channel
+190. Line 11, column 12 to line 11, column 19 in Channel
+191. Line 11, column 12 to line 11, column 15 in Channel
+192. Line 6, column 59 to line 6, column 61 in InnerLIFO
+193. Line 11, column 23 to line 11, column 30 in Channel
+194. Line 11, column 23 to line 11, column 26 in Channel
+195. Line 6, column 59 to line 6, column 61 in InnerLIFO
+196. Line 11, column 12 to line 11, column 30 in Channel
+197. Line 11, column 12 to line 11, column 19 in Channel
+198. Line 11, column 12 to line 11, column 15 in Channel
+199. Line 6, column 59 to line 6, column 61 in InnerLIFO
+200. Line 11, column 23 to line 11, column 30 in Channel
+201. Line 11, column 23 to line 11, column 26 in Channel
+202. Line 6, column 59 to line 6, column 61 in InnerLIFO
+203. Line 37, column 12 to line 37, column 20 in InnerLIFO
+204. Line 37, column 16 to line 37, column 20 in InnerLIFO
+205. Line 11, column 12 to line 11, column 30 in Channel
+206. Line 11, column 12 to line 11, column 19 in Channel
+207. Line 11, column 12 to line 11, column 15 in Channel
+208. Line 6, column 59 to line 6, column 61 in InnerLIFO
+209. Line 11, column 23 to line 11, column 30 in Channel
+210. Line 11, column 23 to line 11, column 26 in Channel
+211. Line 6, column 59 to line 6, column 61 in InnerLIFO
+212. Line 37, column 12 to line 37, column 20 in InnerLIFO
+213. Line 37, column 16 to line 37, column 20 in InnerLIFO
+214. Line 11, column 12 to line 11, column 30 in Channel
+215. Line 11, column 12 to line 11, column 19 in Channel
+216. Line 11, column 12 to line 11, column 15 in Channel
+217. Line 6, column 59 to line 6, column 61 in InnerLIFO
+218. Line 11, column 23 to line 11, column 30 in Channel
+219. Line 11, column 23 to line 11, column 26 in Channel
+220. Line 6, column 59 to line 6, column 61 in InnerLIFO
+221. Line 11, column 12 to line 11, column 30 in Channel
+222. Line 11, column 12 to line 11, column 19 in Channel
+223. Line 11, column 12 to line 11, column 15 in Channel
+224. Line 6, column 59 to line 6, column 61 in InnerLIFO
+225. Line 11, column 23 to line 11, column 30 in Channel
+226. Line 11, column 23 to line 11, column 26 in Channel
+227. Line 6, column 59 to line 6, column 61 in InnerLIFO
+228. Line 11, column 12 to line 11, column 30 in Channel
+229. Line 11, column 12 to line 11, column 19 in Channel
+230. Line 11, column 12 to line 11, column 15 in Channel
+231. Line 6, column 59 to line 6, column 61 in InnerLIFO
+232. Line 11, column 23 to line 11, column 30 in Channel
+233. Line 11, column 23 to line 11, column 26 in Channel
+234. Line 6, column 59 to line 6, column 61 in InnerLIFO
+235. Line 37, column 12 to line 37, column 20 in InnerLIFO
+236. Line 37, column 16 to line 37, column 20 in InnerLIFO
+237. Line 11, column 12 to line 11, column 30 in Channel
+238. Line 11, column 12 to line 11, column 19 in Channel
+239. Line 11, column 12 to line 11, column 15 in Channel
+240. Line 5, column 59 to line 5, column 60 in InnerLIFO
+241. Line 11, column 23 to line 11, column 30 in Channel
+242. Line 11, column 23 to line 11, column 26 in Channel
+243. Line 5, column 59 to line 5, column 60 in InnerLIFO
+244. Line 11, column 12 to line 11, column 30 in Channel
+245. Line 11, column 12 to line 11, column 19 in Channel
+246. Line 11, column 12 to line 11, column 15 in Channel
+247. Line 5, column 59 to line 5, column 60 in InnerLIFO
+248. Line 11, column 23 to line 11, column 30 in Channel
+249. Line 11, column 23 to line 11, column 26 in Channel
+250. Line 5, column 59 to line 5, column 60 in InnerLIFO
+251. Line 11, column 12 to line 11, column 30 in Channel
+252. Line 11, column 12 to line 11, column 19 in Channel
+253. Line 11, column 12 to line 11, column 15 in Channel
+254. Line 5, column 59 to line 5, column 60 in InnerLIFO
+255. Line 11, column 23 to line 11, column 30 in Channel
+256. Line 11, column 23 to line 11, column 26 in Channel
+257. Line 5, column 59 to line 5, column 60 in InnerLIFO
+258. Line 36, column 12 to line 36, column 23 in InnerLIFO
+259. Line 6, column 1 to line 6, column 61 in InnerLIFO
+260. Line 10, column 9 to line 11, column 30 in Channel
+261. Line 10, column 12 to line 10, column 24 in Channel
+262. Line 6, column 18 to line 6, column 58 in Channel
+263. Line 6, column 27 to line 6, column 58 in Channel
+264. Line 6, column 32 to line 6, column 35 in Channel
+265. Line 6, column 42 to line 6, column 48 in InnerLIFO
+266. Line 6, column 42 to line 6, column 46 in Channel
+267. Line 6, column 43 to line 6, column 43 in Channel
+268. Line 6, column 45 to line 6, column 45 in Channel
+269. Line 6, column 53 to line 6, column 57 in Channel
+270. Line 6, column 54 to line 6, column 54 in Channel
+271. Line 6, column 56 to line 6, column 56 in Channel
+272. Line 11, column 12 to line 11, column 30 in Channel
+273. Line 11, column 12 to line 11, column 19 in Channel
+274. Line 11, column 12 to line 11, column 15 in Channel
+275. Line 6, column 59 to line 6, column 61 in InnerLIFO
+276. Line 11, column 23 to line 11, column 30 in Channel
+277. Line 11, column 23 to line 11, column 26 in Channel
+278. Line 6, column 59 to line 6, column 61 in InnerLIFO
+279. Line 37, column 12 to line 37, column 20 in InnerLIFO
+280. Line 37, column 16 to line 37, column 20 in InnerLIFO
+281. Line 11, column 12 to line 11, column 30 in Channel
+282. Line 11, column 12 to line 11, column 19 in Channel
+283. Line 11, column 12 to line 11, column 15 in Channel
+284. Line 6, column 59 to line 6, column 61 in InnerLIFO
+285. Line 11, column 23 to line 11, column 30 in Channel
+286. Line 11, column 23 to line 11, column 26 in Channel
+287. Line 6, column 59 to line 6, column 61 in InnerLIFO
+288. Line 11, column 12 to line 11, column 30 in Channel
+289. Line 11, column 12 to line 11, column 19 in Channel
+290. Line 11, column 12 to line 11, column 15 in Channel
+291. Line 6, column 59 to line 6, column 61 in InnerLIFO
+292. Line 11, column 23 to line 11, column 30 in Channel
+293. Line 11, column 23 to line 11, column 26 in Channel
+294. Line 6, column 59 to line 6, column 61 in InnerLIFO
+295. Line 11, column 12 to line 11, column 30 in Channel
+296. Line 11, column 12 to line 11, column 19 in Channel
+297. Line 11, column 12 to line 11, column 15 in Channel
+298. Line 6, column 59 to line 6, column 61 in InnerLIFO
+299. Line 11, column 23 to line 11, column 30 in Channel
+300. Line 11, column 23 to line 11, column 26 in Channel
+301. Line 6, column 59 to line 6, column 61 in InnerLIFO
+302. Line 37, column 12 to line 37, column 20 in InnerLIFO
+303. Line 37, column 16 to line 37, column 20 in InnerLIFO
+304. Line 11, column 12 to line 11, column 30 in Channel
+305. Line 11, column 12 to line 11, column 19 in Channel
+306. Line 11, column 12 to line 11, column 15 in Channel
+307. Line 6, column 59 to line 6, column 61 in InnerLIFO
+308. Line 11, column 23 to line 11, column 30 in Channel
+309. Line 11, column 23 to line 11, column 26 in Channel
+310. Line 6, column 59 to line 6, column 61 in InnerLIFO
+311. Line 37, column 12 to line 37, column 20 in InnerLIFO
+312. Line 37, column 16 to line 37, column 20 in InnerLIFO
+313. Line 11, column 12 to line 11, column 30 in Channel
+314. Line 11, column 12 to line 11, column 19 in Channel
+315. Line 11, column 12 to line 11, column 15 in Channel
+316. Line 6, column 59 to line 6, column 61 in InnerLIFO
+317. Line 11, column 23 to line 11, column 30 in Channel
+318. Line 11, column 23 to line 11, column 26 in Channel
+319. Line 6, column 59 to line 6, column 61 in InnerLIFO
+320. Line 11, column 12 to line 11, column 30 in Channel
+321. Line 11, column 12 to line 11, column 19 in Channel
+322. Line 11, column 12 to line 11, column 15 in Channel
+323. Line 6, column 59 to line 6, column 61 in InnerLIFO
+324. Line 11, column 23 to line 11, column 30 in Channel
+325. Line 11, column 23 to line 11, column 26 in Channel
+326. Line 6, column 59 to line 6, column 61 in InnerLIFO
+327. Line 11, column 12 to line 11, column 30 in Channel
+328. Line 11, column 12 to line 11, column 19 in Channel
+329. Line 11, column 12 to line 11, column 15 in Channel
+330. Line 6, column 59 to line 6, column 61 in InnerLIFO
+331. Line 11, column 23 to line 11, column 30 in Channel
+332. Line 11, column 23 to line 11, column 26 in Channel
+333. Line 6, column 59 to line 6, column 61 in InnerLIFO
+334. Line 37, column 12 to line 37, column 20 in InnerLIFO
+335. Line 37, column 16 to line 37, column 20 in InnerLIFO
+
+
+@!@!@ENDMSG 2103 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-03-13 12:32:56
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 46, col 32 to line 46, col 34 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 46, col 37 to line 46, col 37 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 50, col 14 to line 50, col 33 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 24 to line 51, col 26 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 15 to line 55, col 26 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 25 to line 56, col 26 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 24 to line 59, col 25 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 28 to line 59, col 28 of module InnerLIFO: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(1) at 2018-03-13 12:32:56: 16 states generated (910 s/min), 2 distinct states found (113 ds/min), 2 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+16 states generated, 2 distinct states found, 2 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 3266ms at (2018-03-13 12:32:56)
+@!@!@ENDMSG 2186 @!@!@

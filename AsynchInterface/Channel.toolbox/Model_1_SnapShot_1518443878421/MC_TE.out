@@ -1,0 +1,65 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.11 of 05 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 2 workers on 4 cores with 599MB heap and 1345MB offheap memory (Windows 10 10.0 amd64, Oracle Corporation 1.8.0_161 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file MC.tla
+Parsing file Channel.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\TLC.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Naturals.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Channel
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-02-12 14:57:55)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 1000:1 @!@!@
+Attempted to enumerate a set of the form [l1 : v1, ..., ln : vn],
+but can't enumerate the value of the `val' field:
+1
+@!@!@ENDMSG 1000 @!@!@
+@!@!@STARTMSG 2147:1 @!@!@
+TLC was unable to fingerprint.
+
+Fingerprint Stack Trace:
+0) line 6, col 27 to line 6, col 58 of module Channel
+
+Reason:
+Attempted to enumerate a set of the form [l1 : v1, ..., ln : vn],
+but can't enumerate the value of the `val' field:
+1
+@!@!@ENDMSG 2147 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-02-12 14:57:57
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 14, col 15 to line 14, col 58 of module Channel: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 17, col 15 to line 17, col 47 of module Channel: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(0) at 2018-02-12 14:57:57: 0 states generated (0 s/min), 0 distinct states found (0 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+0 states generated, 0 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 4876ms at (2018-02-12 14:57:57)
+@!@!@ENDMSG 2186 @!@!@

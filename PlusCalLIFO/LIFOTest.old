@@ -1,0 +1,112 @@
+------------------------------ MODULE LIFOTest ------------------------------
+EXTENDS Naturals, Sequences, TLC
+CONSTANT MaxBufSize, valSet \* makes it a Bounded FIFO
+
+(************************************************)
+(* Based on FIFO in Ch. 4 of Specifying Systems *)
+(* but modified to have Recvr pull from Buffer  *)
+(* rather than have Buffer push to Recvr.       *)
+(************************************************)
+
+(*
+--algorithm FIFO {
+  variables
+    inchan \in [val : valSet,
+                rdy : {0,1},
+                ack : {0,1}],
+                
+    outchan \in [val : valSet,
+                 rdy : {0,1},
+                 ack : {0,1}];
+                 
+    q = <<>>;  \* internal queue of the Buffer - a sequence of vals 
+
+  macro CheckInvariants(chan) {
+    assert (chan.val \in valSet); 
+    assert (chan.rdy \in {0,1}); 
+    assert (chan.ack \in {0,1});
+    assert (q \in Seq(valSet));
+  }
+
+  process (SSend = "ssend")
+    variable oldrdy;
+  {    
+    ss0:  while (TRUE) {
+    ss1:    await inchan.rdy = inchan.ack;
+    ss2:    oldrdy := inchan.rdy;
+            inchan.rdy := 1 - inchan.rdy;
+            \* We do not assign chan.val here -> we let TLC pick all
+            \* possible vals between in valSet
+             
+            print <<inchan, "SSend">>;
+            CheckInvariants(inchan);
+            assert (inchan.rdy # oldrdy);
+            assert (inchan.rdy # inchan.ack);
+          }    
+    
+  }; \* end process SSend
+
+  process (BufRecv = "bufrecv")
+        variable oldack;
+  {
+    br0:  while (TRUE) {
+    br1:    await inchan.rdy # inchan.ack /\ Len(q) < MaxBufSize;
+    br2:    oldack := inchan.ack;
+            inchan.ack := 1 - inchan.ack;
+            q := Append(q, inchan.val);
+            \* q := q \o inchan.val;
+
+            print <<inchan, "BufRecv", q>>;
+            CheckInvariants(inchan);
+            assert (inchan.ack # oldack);
+            assert (inchan.rdy = inchan.ack);
+          }       
+  }; \* end process BufRecv
+
+  process (BufSend = "bufsend")
+    variable oldrdy;
+  {    
+    bs0:  while (TRUE) {
+    bs1:    await outchan.rdy = outchan.ack;
+    bs2:    oldrdy := outchan.rdy;
+            outchan.rdy := 1 - outchan.rdy;
+            \* We do not assign chan.val here -> we let TLC pick all
+            \* possible vals between in valSet
+             
+            print <<outchan, "BufSend">>;
+            CheckInvariants(outchan);
+            assert (outchan.rdy # oldrdy);
+            assert (outchan.rdy # outchan.ack);
+          }    
+    
+  }; \* end process BufSend
+
+
+  process (RRecv = "rrecv")
+        variable oldack, rval;
+  {
+    rr0:  while (TRUE) {
+    rr1:    await outchan.rdy # outchan.ack /\ Len(q) > 0;
+    rr2:    oldack := outchan.ack;
+            outchan.ack := 1 - outchan.ack;
+            rval := Head(q);
+            q := Tail(q);
+
+            print <<outchan, "RRecv", rval>>;
+            CheckInvariants(outchan);
+            assert (outchan.ack # oldack);
+            assert (outchan.rdy = outchan.ack);
+          }       
+  }; \* end process RRecv
+
+}
+*)
+\* BEGIN TRANSLATION
+
+
+\* END TRANSLATION
+
+=================================================================
+\* Modification History
+\* Last modified Wed Mar 07 10:32:59 CET 2018 by jacob
+\* Created Wed Mar 07 10:27:24 CET 2018 by jacob
