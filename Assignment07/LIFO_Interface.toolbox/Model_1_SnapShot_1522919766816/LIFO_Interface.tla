@@ -34,5 +34,8 @@ INext == \/ \E msg \in Message : Send(msg)
         
 Liveness == \E msg \in Message : WF_<<in, out, q>>(Send(msg) \/ Rcv)
 
+ISpec == Init /\ [][INext]_<<in, out, q>> /\ Liveness
+-----------------------------------------------------------------------------
+THEOREM ISpec => []TypeInvariant
 =============================================================================
 

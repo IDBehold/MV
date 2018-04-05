@@ -7,6 +7,10 @@ InChan  == INSTANCE Channel WITH Data <- Message, chan <- in
 OutChan == INSTANCE Channel WITH Data <- Message, chan <- out
 
 -----------------------------------------------------------------------------
+
+\****************************************************************************************************************
+\* Generalized sender/reciever interface - The Send and Rcv methods and a queue is specified, while specifics about how its done is omitted
+\****************************************************************************************************************
 Init == /\ InChan!Init
         /\ OutChan!Init
         /\ q = << >>
@@ -24,5 +28,11 @@ Send(msg)  ==  /\ InChan!Send(msg) \* Send msg on channel `in'.
 
 Rcv == /\ OutChan!Rcv              \* Receive message from channel `out'.
         /\ UNCHANGED <<in, q>>
+        
+INext == \/ \E msg \in Message : Send(msg)
+        \/ Rcv
+        
+Liveness == \E msg \in Message : WF_<<in, out, q>>(Send(msg) \/ Rcv)
+
 =============================================================================
 

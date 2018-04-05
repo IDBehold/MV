@@ -23,7 +23,7 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2018-04-05 11:24:42)
+Starting... (2018-04-05 11:16:03)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
@@ -39,20 +39,20 @@ The behavior up to this point is:
 @!@!@ENDMSG 2121 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
 1: <Initial predicate>
-/\ out = [val |-> 1, rdy |-> 0, ack |-> 0]
+/\ out = [val |-> 2, rdy |-> 0, ack |-> 0]
 /\ q = <<>>
 /\ in = [val |-> 1, rdy |-> 0, ack |-> 0]
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2217:4 @!@!@
 2: <Send line 25, col 16 to line 27, col 37 of module LIFO_Interface>
-/\ out = [val |-> 1, rdy |-> 0, ack |-> 0]
+/\ out = [val |-> 2, rdy |-> 0, ack |-> 0]
 /\ q = <<>>
 /\ in = [val |-> 1, rdy |-> 1, ack |-> 0]
 
 @!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2018-04-05 11:24:42
+The coverage statistics at 2018-04-05 11:16:05
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 12, col 16 to line 12, col 61 of module Channel: 500
@@ -73,7 +73,7 @@ The coverage statistics at 2018-04-05 11:24:42
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(2) at 2018-04-05 11:24:42: 600 states generated (51.948 s/min), 200 distinct states found (17.316 ds/min), 96 states left on queue.
+Progress(2) at 2018-04-05 11:16:05: 600 states generated (25.550 s/min), 200 distinct states found (8.516 ds/min), 96 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 600 states generated, 200 distinct states found, 96 states left on queue.
@@ -85,5 +85,5 @@ The depth of the complete state graph search is 2.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 5 and the 95th percentile is 5).
 @!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 1219ms at (2018-04-05 11:24:42)
+Finished in 4466ms at (2018-04-05 11:16:05)
 @!@!@ENDMSG 2186 @!@!@

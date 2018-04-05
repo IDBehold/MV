@@ -6,13 +6,13 @@ VARIABLES in, out, lifoq
 LIFOInterface == INSTANCE LIFO_Interface WITH q <- lifoq
 -----------------------------------------------------------------------------
 
-Init == /\ LIFOInterface!Init
-TypeInvariant  ==  LIFOInterface!TypeInvariant
+\*Init == /\ LIFOInterface!Init
+\*TypeInvariant  ==  LIFOInterface!TypeInvariant
 
 \****************************************************************************************************************
 \* Send uses the generalized send method
 \****************************************************************************************************************
-SSend(msg)  ==  LIFOInterface!Send(msg)
+\*SSend(msg)  ==  LIFOInterface!Send(msg)
 
 \****************************************************************************************************************
 \* Receive message from channel `in'.
@@ -27,15 +27,15 @@ BufSend == /\ lifoq # << >>                                 \* Enabled only if q
            /\ lifoq' = Tail(lifoq)                          \*   and remove it from q.
            /\ UNCHANGED in
 
-RRcv == LIFOInterface!Rcv
+\*RRcv == LIFOInterface!Rcv
 
-Next == \/ \E msg \in Message : SSend(msg)
+Next == \/ LifoInterface!INext
         \/ BufRcv
         \/ BufSend
-        \/ RRcv 
 
-Spec == Init /\ [][Next]_<<in, out, lifoq>>
+Spec == LifoInterface!Init /\ LifoInterface!Next /\ [][Next]_<<in, out, lifoq>> /\ LifoInterface!Liveness
+
 -----------------------------------------------------------------------------
-THEOREM Spec => []TypeInvariant
+THEOREM Spec => []LifoInterface!TypeInvariant
 =============================================================================
 

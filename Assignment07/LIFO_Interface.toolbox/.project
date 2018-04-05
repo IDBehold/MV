@@ -23,7 +23,7 @@
 		<link>
 			<name>Channel.tla</name>
 			<type>1</type>
-			<location>C:/Users/jensk/Desktop/Modelling and verification/Assignments/Assignment07/Channel.tla</location>
+			<locationURI>PARENT-1-PROJECT_LOC/Channel.tla</locationURI>
 		</link>
 		<link>
 			<name>LIFO.tla</name>
@@ -33,7 +33,7 @@
 		<link>
 			<name>LIFO_Interface.tla</name>
 			<type>1</type>
-			<location>C:/Users/jensk/Desktop/Modelling and verification/Assignments/Assignment07/LIFO_Interface.tla</location>
+			<locationURI>PARENT-1-PROJECT_LOC/LIFO_Interface.tla</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

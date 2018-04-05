@@ -66,10 +66,9 @@ Next == \/ \E msg \in Message : SSend(msg)
 
 Spec == Init /\ [][Next]_<<in, out, q>>
 
-AbstractedSpec == \E x \in Message : Init /\ in.val = x /\ [][Next]_<<in, out, q>> => <> out.val = x
 -----------------------------------------------------------------------------
 THEOREM Spec => []TypeInvariant
 =============================================================================
 \* Modification History
-\* Last modified Thu Mar 15 11:45:15 CET 2018 by jacob
+\* Last modified Thu Apr 05 10:49:10 CEST 2018 by jacob
 \* Created Mon Feb 12 14:42:22 CET 2018 by jacob
