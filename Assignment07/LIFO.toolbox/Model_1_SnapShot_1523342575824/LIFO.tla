@@ -24,7 +24,7 @@ Next == \/ LIFOInterface!INext
         \/ BufSend
         
 Liveness1 == \E msg \in Message : WF_<<in, out, lifoq>>(LIFOInterface!Send(msg) \/ BufRcv)
-Liveness2 == SF_<<in, out, lifoq>>(lifoq # << >> \/ BufSend)
+Liveness2 == SF_<<in, out, lifoq>>(lifoq = << >> \/ BufSend)
 Liveness3 == WF_<<in, out, lifoq>>(BufSend \/ LIFOInterface!Rcv)
 
 Spec == LIFOInterface!Init /\ [][Next]_<<in, out, lifoq>> /\ LIFOInterface!Liveness /\ Liveness1 /\ Liveness2 /\ Liveness3

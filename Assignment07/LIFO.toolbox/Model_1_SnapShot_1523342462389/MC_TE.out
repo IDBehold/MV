@@ -1,0 +1,90 @@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file MC.tla
+Parsing file LIFO.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\TLC.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Naturals.tla
+Parsing file D:\Modelling and Verification\toolbox\plugins\org.lamport.tlatools_1.0.0.201801080826\tla2sany\StandardModules\Sequences.tla
+Parsing file LIFO_Interface.tla
+Parsing file Channel.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module Channel
+Semantic processing of module LIFO_Interface
+Semantic processing of module LIFO
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-04-10 08:40:48)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 100 distinct states generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(12) at 2018-04-10 08:40:53: 314788 states generated (314.788 s/min), 189882 distinct states found (189.882 ds/min), 76265 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.0E-8
+  based on the actual fingerprints:  val = 4.8E-10
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-04-10 08:41:00
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 12, col 16 to line 12, col 61 of module Channel: 559500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 14, col 14 to line 14, col 41 of module LIFO: 156200
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 15, col 16 to line 15, col 50 of module Channel: 334900
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 15, col 24 to line 15, col 26 of module LIFO: 156200
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 19, col 15 to line 19, col 34 of module LIFO: 178500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 20, col 25 to line 20, col 26 of module LIFO: 178500
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 32 to line 26, col 34 of module LIFO_Interface: 381000
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 37 to line 26, col 37 of module LIFO_Interface: 381000
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 24 to line 30, col 25 of module LIFO_Interface: 178700
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 28 to line 30, col 28 of module LIFO_Interface: 178700
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(15) at 2018-04-10 08:41:00: 894500 states generated (4.592.674 s/min), 357400 distinct states found (1.835.016 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+894500 states generated, 357400 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 15.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 6 and the 95th percentile is 5).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 14131ms at (2018-04-10 08:41:00)
+@!@!@ENDMSG 2186 @!@!@
