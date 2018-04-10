@@ -23,11 +23,28 @@ Next == \/ LIFOInterface!INext
         \/ BufRcv
         \/ BufSend
         
+        
+\*********************************************************************************************
+\* BufRcv should eventually be called if LIFOInterface!Send(msg) has been enabled
+\*********************************************************************************************        
 Liveness1 == \E msg \in Message : WF_<<in, out, lifoq>>(LIFOInterface!Send(msg) \/ BufRcv)
-Liveness2 == SF_<<in, out, lifoq>>(lifoq # << >> \/ BufSend)
-Liveness3 == WF_<<in, out, lifoq>>(LIFOInterface!Rcv \/ BufSend )
 
-Spec == LIFOInterface!Init /\ [][Next]_<<in, out, lifoq>> /\ LIFOInterface!Liveness /\ Liveness1 /\ Liveness2 /\ Liveness3
+\*********************************************************************************************
+\* While the lifoq is NOT empty BufSend is enabled
+\*********************************************************************************************
+Liveness2 == SF_<<in, out, lifoq>>(lifoq # << >> \/ BufSend)
+
+\*********************************************************************************************
+\* LIFOInterface!Rcv should eventually be called if BufSend has been enabled
+\*********************************************************************************************
+Liveness3 == WF_<<in, out, lifoq>>(BufSend \/ LIFOInterface!Rcv)
+
+Spec == /\ LIFOInterface!Init 
+        /\ [][Next]_<<in, out, lifoq>> 
+        /\ LIFOInterface!Liveness 
+        /\ Liveness1 
+        /\ Liveness2 
+        /\ Liveness3
 
 -----------------------------------------------------------------------------
 THEOREM Spec => []LIFOInterface!TypeInvariant

@@ -25,7 +25,7 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2018-04-10 09:01:22)
+Starting... (2018-04-10 08:57:33)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
@@ -34,7 +34,7 @@ Computing initial states...
 Finished computing initial states: 100 distinct states generated.
 @!@!@ENDMSG 2190 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(12) at 2018-04-10 09:01:26: 341383 states generated (341.383 s/min), 192750 distinct states found (192.750 ds/min), 55406 states left on queue.
+Progress(11) at 2018-04-10 08:57:37: 321367 states generated (321.367 s/min), 192101 distinct states found (192.101 ds/min), 74133 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2193:0 @!@!@
 Model checking completed. No error has been found.
@@ -44,7 +44,7 @@ Model checking completed. No error has been found.
   based on the actual fingerprints:  val = 4.8E-10
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2018-04-10 09:01:32
+The coverage statistics at 2018-04-10 08:57:45
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
   line 12, col 16 to line 12, col 61 of module Channel: 559500
@@ -65,22 +65,22 @@ The coverage statistics at 2018-04-10 09:01:32
   line 20, col 25 to line 20, col 26 of module LIFO: 178500
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 26, col 31 to line 26, col 33 of module LIFO_Interface: 381000
+  line 26, col 32 to line 26, col 34 of module LIFO_Interface: 381000
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 26, col 36 to line 26, col 36 of module LIFO_Interface: 381000
+  line 26, col 37 to line 26, col 37 of module LIFO_Interface: 381000
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 30, col 23 to line 30, col 24 of module LIFO_Interface: 178700
+  line 30, col 24 to line 30, col 25 of module LIFO_Interface: 178700
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 30, col 27 to line 30, col 27 of module LIFO_Interface: 178700
+  line 30, col 28 to line 30, col 28 of module LIFO_Interface: 178700
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2202:0 @!@!@
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(15) at 2018-04-10 09:01:32: 894500 states generated (5.870.706 s/min), 357400 distinct states found (2.345.657 ds/min), 0 states left on queue.
+Progress(15) at 2018-04-10 08:57:45: 894500 states generated (4.733.639 s/min), 357400 distinct states found (1.891.338 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 894500 states generated, 357400 distinct states found, 0 states left on queue.
@@ -92,5 +92,5 @@ The depth of the complete state graph search is 15.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 6 and the 95th percentile is 5).
 @!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 10822ms at (2018-04-10 09:01:32)
+Finished in 13513ms at (2018-04-10 08:57:45)
 @!@!@ENDMSG 2186 @!@!@

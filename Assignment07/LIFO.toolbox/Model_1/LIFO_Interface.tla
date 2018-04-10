@@ -23,15 +23,18 @@ TypeInvariant  ==  /\ InChan!TypeInvariant
            /\ Len(q) <= QueueSize
         
 Send(msg)  ==  /\ InChan!Send(msg) \* Send msg on channel `in'.
-                /\ UNCHANGED <<out, q>>
-                /\ Len(q) < QueueSize
+               /\ UNCHANGED <<out, q>>
+               /\ Len(q) < QueueSize
 
 Rcv == /\ OutChan!Rcv              \* Receive message from channel `out'.
-        /\ UNCHANGED <<in, q>>
+       /\ UNCHANGED <<in, q>>
         
 INext == \/ \E msg \in Message : Send(msg)
-        \/ Rcv
-        
+         \/ Rcv
+    
+\*********************************************************************************************
+\* Rcv should eventually be called if Send(msg) has been enabled
+\*********************************************************************************************    
 Liveness == \E msg \in Message : WF_<<in, out, q>>(Send(msg) \/ Rcv)
 
 =============================================================================

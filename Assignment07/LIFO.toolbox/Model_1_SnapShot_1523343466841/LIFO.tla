@@ -39,12 +39,7 @@ Liveness2 == SF_<<in, out, lifoq>>(lifoq # << >> \/ BufSend)
 \*********************************************************************************************
 Liveness3 == WF_<<in, out, lifoq>>(BufSend \/ LIFOInterface!Rcv)
 
-Spec == /\ LIFOInterface!Init 
-        /\ [][Next]_<<in, out, lifoq>> 
-        /\ LIFOInterface!Liveness 
-        /\ Liveness1 
-        /\ Liveness2 
-        /\ Liveness3
+Spec == LIFOInterface!Init /\ [][Next]_<<in, out, lifoq>> /\ LIFOInterface!Liveness /\ Liveness1 /\ Liveness2 /\ Liveness3
 
 -----------------------------------------------------------------------------
 THEOREM Spec => []LIFOInterface!TypeInvariant
