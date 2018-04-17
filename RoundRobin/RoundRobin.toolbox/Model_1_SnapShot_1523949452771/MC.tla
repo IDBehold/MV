@@ -2,18 +2,14 @@
 EXTENDS RoundRobin, TLC
 
 \* CONSTANT definitions @modelParameterConstants:0NodeCount
-const_152395093008052000 == 
+const_152394945070232000 == 
 5
 ----
 
 \* SPECIFICATION definition @modelBehaviorSpec:0
-spec_152395093008053000 ==
+spec_152394945070233000 ==
 Spec
-----
-\* INVARIANT definition @modelCorrectnessInvariants:0
-inv_152395093008054000 ==
-TypeInvariant
 ----
 =============================================================================
 \* Modification History
-\* Created Tue Apr 17 09:42:10 CEST 2018 by jensk
+\* Created Tue Apr 17 09:17:30 CEST 2018 by jensk
