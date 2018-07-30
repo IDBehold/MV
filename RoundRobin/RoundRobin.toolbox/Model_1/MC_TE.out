@@ -21,48 +21,99 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2018-04-16 14:36:14)
+Starting... (2018-04-17 09:42:10)
 @!@!@ENDMSG 2185 @!@!@
-@!@!@STARTMSG 2140:3 @!@!@
-The subscript of the next-state relation specified by the specification
-does not seem to contain the state variable phone
-@!@!@ENDMSG 2140 @!@!@
-@!@!@STARTMSG 2140:3 @!@!@
-The subscript of the next-state relation specified by the specification
-does not seem to contain the state variable chan
-@!@!@ENDMSG 2140 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
 @!@!@ENDMSG 2189 @!@!@
-@!@!@STARTMSG 1000:1 @!@!@
-@!@!@STARTMSG 2280:0 @!@!@
-In evaluation, the identifier IDs is either undefined or not an operator.
-line 18, col 24 to line 18, col 26 of module RoundRobin
-@!@!@ENDMSG 2280 @!@!@
-@!@!@ENDMSG 1000 @!@!@
-@!@!@STARTMSG 2103:1 @!@!@
-The error occurred when TLC was evaluating the nested
-expressions at the following positions:
-0. Line 26, column 24 to line 28, column 55 in RoundRobin
-1. Line 26, column 27 to line 26, column 48 in RoundRobin
-2. Line 26, column 27 to line 26, column 28 in RoundRobin
-3. Line 18, column 16 to line 18, column 36 in RoundRobin
-4. Line 18, column 24 to line 18, column 26 in RoundRobin
-
-
-@!@!@ENDMSG 2103 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 8.8E-17
+  based on the actual fingerprints:  val = 1.2E-14
+@!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2018-04-16 14:36:15
+The coverage statistics at 2018-04-17 09:42:13
 @!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 38 to line 34, col 42 of module RoundRobin: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 45 to line 34, col 48 of module RoundRobin: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 51 to line 34, col 52 of module RoundRobin: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 55 to line 34, col 65 of module RoundRobin: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 27 to line 41, col 53 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 27 to line 42, col 61 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 39 to line 43, col 43 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 43, col 46 to line 43, col 56 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 27 to line 49, col 53 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 50, col 27 to line 50, col 62 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 27 to line 51, col 56 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 39 to line 52, col 42 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 27 to line 58, col 63 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 27 to line 59, col 53 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 27 to line 60, col 56 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 39 to line 61, col 42 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 29 to line 68, col 81 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 29 to line 69, col 55 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 70, col 41 to line 70, col 45 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 70, col 48 to line 70, col 58 of module RoundRobin: 5
+@!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2202:0 @!@!@
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(0) at 2018-04-16 14:36:15: 0 states generated (0 s/min), 0 distinct states found (0 ds/min), 0 states left on queue.
+Progress(20) at 2018-04-17 09:42:13: 101 states generated (1,856 s/min), 20 distinct states found (367 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
-0 states generated, 0 distinct states found, 0 states left on queue.
+101 states generated, 20 distinct states found, 0 states left on queue.
 @!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 20.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 1 and the 95th percentile is 1).
+@!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 1622ms at (2018-04-16 14:36:15)
+Finished in 3458ms at (2018-04-17 09:42:13)
 @!@!@ENDMSG 2186 @!@!@

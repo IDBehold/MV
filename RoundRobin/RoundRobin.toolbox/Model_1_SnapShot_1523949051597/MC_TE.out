@@ -21,7 +21,7 @@ Semantic processing of module MC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2018-04-17 09:42:10)
+Starting... (2018-04-17 09:10:46)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
@@ -34,76 +34,61 @@ Model checking completed. No error has been found.
   Estimates of the probability that TLC did not check all reachable states
   because two distinct states had the same fingerprint:
   calculated (optimistic):  val = 8.8E-17
-  based on the actual fingerprints:  val = 1.2E-14
+  based on the actual fingerprints:  val = 5.6E-17
 @!@!@ENDMSG 2193 @!@!@
 @!@!@STARTMSG 2201:0 @!@!@
-The coverage statistics at 2018-04-17 09:42:13
+The coverage statistics at 2018-04-17 09:10:49
 @!@!@ENDMSG 2201 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 34, col 38 to line 34, col 42 of module RoundRobin: 80
+  line 23, col 38 to line 23, col 42 of module RoundRobin: 80
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 34, col 45 to line 34, col 48 of module RoundRobin: 80
+  line 23, col 45 to line 23, col 48 of module RoundRobin: 80
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 34, col 51 to line 34, col 52 of module RoundRobin: 80
+  line 23, col 51 to line 23, col 52 of module RoundRobin: 80
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 34, col 55 to line 34, col 65 of module RoundRobin: 80
+  line 27, col 27 to line 27, col 53 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 41, col 27 to line 41, col 53 of module RoundRobin: 5
+  line 28, col 27 to line 28, col 61 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 42, col 27 to line 42, col 61 of module RoundRobin: 5
+  line 29, col 39 to line 29, col 43 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 43, col 39 to line 43, col 43 of module RoundRobin: 5
+  line 32, col 27 to line 32, col 53 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 43, col 46 to line 43, col 56 of module RoundRobin: 5
+  line 33, col 27 to line 33, col 62 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 49, col 27 to line 49, col 53 of module RoundRobin: 5
+  line 34, col 39 to line 34, col 42 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 50, col 27 to line 50, col 62 of module RoundRobin: 5
+  line 37, col 27 to line 37, col 63 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 51, col 27 to line 51, col 56 of module RoundRobin: 5
+  line 38, col 27 to line 38, col 53 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 52, col 39 to line 52, col 42 of module RoundRobin: 5
+  line 39, col 39 to line 39, col 42 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 58, col 27 to line 58, col 63 of module RoundRobin: 5
+  line 42, col 29 to line 42, col 81 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 59, col 27 to line 59, col 53 of module RoundRobin: 5
+  line 43, col 29 to line 43, col 55 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2221:0 @!@!@
-  line 60, col 27 to line 60, col 56 of module RoundRobin: 5
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 61, col 39 to line 61, col 42 of module RoundRobin: 5
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 68, col 29 to line 68, col 81 of module RoundRobin: 5
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 69, col 29 to line 69, col 55 of module RoundRobin: 5
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 70, col 41 to line 70, col 45 of module RoundRobin: 5
-@!@!@ENDMSG 2221 @!@!@
-@!@!@STARTMSG 2221:0 @!@!@
-  line 70, col 48 to line 70, col 58 of module RoundRobin: 5
+  line 44, col 41 to line 44, col 45 of module RoundRobin: 5
 @!@!@ENDMSG 2221 @!@!@
 @!@!@STARTMSG 2202:0 @!@!@
 End of statistics.
 @!@!@ENDMSG 2202 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(20) at 2018-04-17 09:42:13: 101 states generated (1,856 s/min), 20 distinct states found (367 ds/min), 0 states left on queue.
+Progress(20) at 2018-04-17 09:10:49: 101 states generated (2,040 s/min), 20 distinct states found (404 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
 101 states generated, 20 distinct states found, 0 states left on queue.
@@ -115,5 +100,5 @@ The depth of the complete state graph search is 20.
 The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 1 and the 95th percentile is 1).
 @!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 3458ms at (2018-04-17 09:42:13)
+Finished in 3153ms at (2018-04-17 09:10:49)
 @!@!@ENDMSG 2186 @!@!@
